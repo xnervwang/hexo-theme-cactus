@@ -36,9 +36,13 @@
         <% } %>
     <% } %>
     <!-- title -->
-    <title><%= page.title ? page.title : config.title %></title>
+    <title><%= page_title() %></title>
     <!-- styles -->
     <%- css('css/style') %>
+    <!-- persian styles -->
+    <% if (theme.direction) { %>
+      <%- css('css/rtl') %>
+    <% } %>
     <!-- rss -->
     <% if (theme.rss === '' && config.feed && config.feed.path) { %>
       <% theme.rss = config.feed.path %>
