@@ -13,9 +13,9 @@ projects_url: http://github.com/probberechts
 # languages/*.yml
 nav:
   home: /
-  about: /about/
-  articles: /archives/
-  projects: projects_url
+  whitealbum: /archives/
+  mainsite: //xnerv.wang
+  #projects: projects_url
 
 
 # Links to your social media accounts.
@@ -23,11 +23,11 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  github: http://github.com/xnerv.wang
+  twitter: https://twitter.com/xnervwang
+  facebook: https://www.facebook.com/xnervwang
+  linkedin: https://www.linkedin.com/in/xnervwang/
+  mail: mailto:i@xnerv.wang
 
 
 # Customize the overview with the most recent blog posts on the index page.
@@ -36,7 +36,7 @@ social_links:
 #   - post_count: whether to show only the x most recent posts.
 posts_overview:
   show_all_posts: false
-  post_count: 5
+  post_count: 15
 
 
 ##############################################################################
@@ -122,4 +122,4 @@ google_analytics:
 # Fill in you Gravatar user id / email if you want to use your gravatar as the
 # logo and/or favicons of you website.
 gravatar:
-  email: name@email.com
+  email: i@xnerv.wang
