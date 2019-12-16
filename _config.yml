@@ -15,7 +15,8 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  whitealbum: /archives/
+  articles: /archives/
+  tag: /tags/
   mainsite: //xnerv.wang
   #projects: projects_url
 
